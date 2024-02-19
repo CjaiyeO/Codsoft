@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Login Now</h1>
+
+        <h4>Please login to continue using
+            our app.
+        </h4>
+
+    </header>
+
+    <span>
+        <h4 id="blue">Enter via Social Networks</h4>
+    </span>
+
+    <span>
+        <div>
+            <a href="https://www.facebook.com/login/ "> <img src="faebookbutton.png" alt="facebook icon" height="55">
+            </a> <a href="https://twitter.com/login"> <img src="twitterbutton.png" alt="facebook icon" height="55"></a>
+        </div>
+    </span>
+
+    <span>
+        <h4>or login with email</h4>
+    </span>
+    </span>
+    <span>
+        <div>
+            <input type="email" id="email" name="email" style="height: 65px ;width: 267px" ;
+                placeholder="Enter your email"><br><br>
+            <input type="password" id="password" name="password" style="height: 65px ;width: 267px" ;
+                placeholder="Enter your password">
+            <br>
+        </div>
+    </span>
+    <h4 style="text-align: right;">forgot password?</h4>
+    <span>
+        <div>
+            <a href="path/to/your/login/file.html">
+                <svg xmlns="http://www.w3.org/2000/svg" width="200" height="50" viewBox="0 0 200 50">
+                    <rect x="0" y="0" width="200" height="50" rx="10" ry="10" fill="#007bff" />
+                    <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="white"
+                        font-family="Arial" font-size="20">Login</text>
+                </svg>
+            </a>
+        </div>
+    </span>
+    <h4>You already have account? <a href="login.html"> Login</a></h4>
+
+
+
+
+</body>
+
+</html>
